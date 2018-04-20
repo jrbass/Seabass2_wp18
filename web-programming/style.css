@@ -1,0 +1,12 @@
+body{
+  border: 12px solid white;
+  padding: 50px;
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  background: rgba(109, 156, 232, .85);
+  width: 100vw;
+  height: 100vh;
+}
+.fullwidth{
+  width: 100vw;
+}
