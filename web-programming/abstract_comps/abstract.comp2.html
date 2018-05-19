@@ -1,0 +1,38 @@
+<html>
+  <head>
+      <title>Abstract_1.2</title>
+    <style>
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-auto-rows: 75px minmax(200px, auto);
+      grid-gap:20px;
+    }
+    .shadowbox {
+      width: 300px;
+      border: 1px solid #333;
+      box-shadow: 8px 8px 5px #444;
+      padding: 4px 10px;
+      background-image: linear-gradient(to right, #ccc, #ddd 25%, #29ABE2);
+    }
+
+    .rectangle {
+      background-color: lightgreen
+      border: 1px solid #333;
+      z-index: -1;
+    }
+    </style>
+
+
+    <body>
+  <div class="grid">
+  <div class="shadowbox">
+  <p>This web programming stuff is racking my brain.</p>
+  </div>
+  <div class="shadowbox">
+    <p>I can't wait to be able to focus on only coding. Its a powerful tool for expression.</p>
+    <div class="rectangle">
+  </div>
+
+  </body>
