@@ -14,9 +14,7 @@ Abstract Compositions</br>
 * https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/Abstract_comp2.1.html
 
 Animation</br>
-*
-*
+* 
 
 Summary Page (thesis)</br>
-*
-* 
+*  https://jrbass.github.io/Seabass2_wp18/web-programming/Thesis-Summary.html
