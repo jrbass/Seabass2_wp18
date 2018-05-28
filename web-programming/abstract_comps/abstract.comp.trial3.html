@@ -1,0 +1,46 @@
+<html>
+  <head>
+      <title>Abstract.trial3</title>
+    <style>
+
+    section {
+      display: grid;
+    grid-template-columns: repeat(10,2fr);
+    grid-template-rows: repeat(10,2fr);
+    grid-gap:10px;
+    }
+
+    div { height: 100%; width: 100%; margin: 0px;
+    background: lightgray;
+    border: 2px solid blue;
+    text-align:  center;
+    justify-content:  center;
+    line-height: 130px;
+    }
+
+    .rectangle1{
+      background-color: blue;
+      grid-column: 2/6;
+      grid-row: 3/9;
+    }
+    .circle1{
+      background-color: green;
+      grid-column:4/7;
+      grid-row: 2/8;
+      border-radius: 50px;
+    }
+
+    </style>
+  </head>
+
+    <body>
+      <section>
+      <div class="rectangle1"></div>
+      <div class="circle1"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+</section>
+  </body>

@@ -4,29 +4,35 @@
     	<meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta charset="utf-8">
      	<meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Thesis Summary</title>
+      <title>Auto Vehicle Futures</title>
 
       <style>
       Body{
-        background: yellow;
+        background: white;
         font-style: normal;
         font: courier;
         color: black;
         font-size: 1.5rem;
         font-style: italic;
         margin: 0px;
-        border: 5px solid white;
+        border: 15px solid white;
         width: 100vw;
         height: 100vh;
         padding: 0px;
 
       }
+      .intro{
+      width: 100%;
+      background: yellow;
+      }
+
       h1{
         text-align: right;
         font-size: 1rem;
         font-style: normal;
-        margin-top: 20px;
-        margin-right: 20px;
+        margin-top: 0px;
+        margin-right: 50px;
+
       }
       h2{
         text-align: left;
@@ -40,19 +46,110 @@
         font-style: oblique;
         text-decoration: underline;
         margin-left: 25px;
+        padding-bottom: 50px;
+        margin-bottom: 75px;
       }
+      p{
+      width: 40%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 0;
+      border: 1px solid black;
+      padding: 20px;
+      margin-bottom: 75px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        /*grid-template-rows: auto auto;*/
+        background-color: white;
+      }
+      #grid-item{
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        overflow: hidden;
+        font: helvetica;
+        color: black;
+        font-style: normal;
+        font-size: 1em;
+      }
+      #grid-item img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        overflow: none;
+      }
+      #grid-item p{
+        font: helvetica;
+        color: black;
+        font-style: normal;
+        font-size: 0.75em;
+        border: none;
+        margin-top: 25px;
+      }
+      label{
+        font-weight: bold;
+        margin-left: 10px;
+        font-style: normal;
+      }
+      .finalproposal div{
+        width: 100%;
+        height: 600px;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+      .finalproposal img {
+        width: 60%;
+        display: block;
+        margin: auto;
+      }
+
       </style>
   </head>
   <body>
     <main>
-      <h1>Jeremy Bass</h1>
-      <h2> Autonomous Vehicle</h2>
-      <h3>Futures.</h3>
+      <div class="intro">
+        <h1>Jeremy Bass</h1>
+        <h2> Autonomous Vehicle</h2>
+        <h3>Futures.</h3>
+      </div>
+
     <p>
       To drive adoption of autonomous vehicles, the design of user experiences should be treated as ‘interactions with robots’,
       not as cars. Trustworthy autonomous vehicle-based services are possible if the user experiences are modeled after design
       principles from the field of human-robot interaction.
     </p>
+    <div id="grid"> <!--Research block-->
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\Sam_car-experiment.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\improv_workshop1.jpg"></div>
+      <div id="grid-item">
+        <label>Research</label>
+        <p>This is working now. holy crap!!!</p>
+      </div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\Jeremy_AntennaDevice_2.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\IMG_1263.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\Allfourin_model2.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\Entiremodel_roomsize.jpg"></div>
+    </div>
+    <div id="grid"> <!--prototyping-->
+      <div id="grid-item">
+        <label>Prototyping</label>
+        <p>This is working now. holy crap!!!</p>
+      </div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\IMG_1410.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\rear.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\Christina.png"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\shreyans.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\car.jpg"></div>
+      <div id="grid-item"><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\jen.jpg"></div>
+    </div>
+<div class="finalproposal">
+  <label>Final Proposal</label>
+  <div><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\IMG_1410.jpg"></div>
+  <div><img src="D:\Jeremy Bass\Documents\Github\Seabass2_wp18\web-programming\Images-final\IMG_1410.jpg"></div>
+</div>
   </body>
 
 </html>
