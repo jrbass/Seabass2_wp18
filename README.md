@@ -9,4 +9,14 @@ Five Objects
 
 Abstract Compositions</br>
 * https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/abstract.comp.trial3.html
+* https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/abstract.comp1.html
+* https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/abstract.comp2.html
+* https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/Abstract_comp2.1.html
+
+Animation</br>
 *
+*
+
+Summary Page (thesis)</br>
+*
+* 
