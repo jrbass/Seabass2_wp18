@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta charset="utf-8">
+     	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Auto Vehicle Futures</title>
+
+      <style>
+      Body{
+        background: pink;
+        font-style: normal;
+        font: courier;
+        color: black;
+        font-size: 1.5rem;
+        font-style: italic;
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        padding: 0px;
+      }
+
+      @keyframes circle {
+        from {background-color: white;}
+        to {background-color: magenta;}
+      }
+      div{
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        border-radius: 50%;
+        border: black;
+        float: left;
+        animation-name: circle;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+      }
+
+      .rectangle {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        border-radius: 50%;
+        border: black;
+        position: absolute;
+        animation: scale 4s infinite linear;
+      }
+      @keyframes scale {
+    100% {
+         transform: scaleX(2) scaleY(2);
+    }
+    from {background-color: yellow;}
+    to {background-color: lightgreen;}
+}
+
+      .rectangle1 {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        border-radius: 50%;
+        border: black;
+        float: right;
+        animation: scale 4s infinite linear;
+      }
+      @keyframes scale {
+      100% {
+         transform: scaleX(2) scaleY(2);
+      }
+      from {background-color: orange;}
+      to {background-color: beige;}
+      }
+
+
+
+      </style>
+    </head>
+
+    <body>
+
+      <div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div>
+      
+
+      <div class="rectangle">
+      </div>
+
+      <div class="rectangle1">
+      </div>
+
+    </body>
+    </html>

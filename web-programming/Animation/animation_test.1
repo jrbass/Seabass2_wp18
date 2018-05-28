@@ -1,0 +1,39 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta charset="utf-8">
+     	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Animation</title>
+<style>
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+</style>
+</head>
+<body>
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div></div>
+</body>
+</html>
