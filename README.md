@@ -6,6 +6,7 @@ Five Objects
 * https://jrbass.github.io/Seabass2_wp18/web-programming/5Objects/House.html
 * https://jrbass.github.io/Seabass2_wp18/web-programming/5Objects/lamp_onoff_2.html
 * https://jrbass.github.io/Seabass2_wp18/web-programming/5Objects/space_shuttle.html
-Abstract Compositions
+
+Abstract Compositions</br>
 * https://jrbass.github.io/Seabass2_wp18/web-programming/abstract_comps/abstract.comp.trial3.html
-* 
+*
