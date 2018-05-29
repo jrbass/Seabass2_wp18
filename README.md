@@ -17,4 +17,4 @@ Animation</br>
 * https://jrbass.github.io/Seabass2_wp18/web-programming/Animation/animation_test.2.html
 
 Summary Page (thesis)</br>
-*  https://github.com/jrbass/Seabass2_wp18/tree/master/web-programming/Thesis-summary.html
+*  https://jrbass.github.io/Seabass2_wp18/web-programming/Final_assignment/Thesis-Summary.html
